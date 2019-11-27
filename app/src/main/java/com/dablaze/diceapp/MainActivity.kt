@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         val diceImage: ImageView = findViewById(R.id.imageView_roll)
         rollResult.text = randomNum.toString()
         diceImage.setImageResource(randomPic)
+
     }
 }
 
